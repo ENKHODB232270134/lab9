@@ -1,0 +1,138 @@
+
+notsy@enhdd MINGW64 ~
+$ mkdir labb9
+
+notsy@enhdd MINGW64 ~
+$ dir
+AppData
+Application\ Data
+Cisco\ Packet\ Tracer\ 8.2.2
+Contacts
+Cookies
+Documents
+Downloads
+Favorites
+Lab5
+Lab5.zip
+Links
+Local\ Settings
+Music
+My\ Documents
+NTUSER.DAT
+NTUSER.DAT{658c0b38-e5d5-11ef-9ddf-c0a5e8f9a113}.TM.blf
+NTUSER.DAT{658c0b38-e5d5-11ef-9ddf-c0a5e8f9a113}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{658c0b38-e5d5-11ef-9ddf-c0a5e8f9a113}.TMContainer00000000000000000002.regtrans-ms
+NetHood
+OneDrive
+PrintHood
+Reborn\ Хувцасны\ дэлгүүр.pdf
+Recent
+Saved\ Games
+Searches
+SendTo
+Start\ Menu
+Templates
+Videos
+dag1.py
+das1.py
+dasg1.py
+dasg2.py
+dasg3.py
+dasg4.py
+dasg5.py
+eclipse
+eclipse-workspace
+lab4
+lab4\ dasgal1.py
+lab4\ dasgal2.py
+lab44
+lab444
+lab7
+labb7
+labb9
+labor4
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+
+notsy@enhdd MINGW64 ~
+$ cd labb99
+bash: cd: labb99: No such file or directory
+
+notsy@enhdd MINGW64 ~
+$ cd labb9
+
+notsy@enhdd MINGW64 ~/labb9
+$ git init
+Initialized empty Git repository in C:/Users/notsy/labb9/.git/
+
+notsy@enhdd MINGW64 ~/labb9 (master)
+$ touch readme.txt
+
+notsy@enhdd MINGW64 ~/labb9 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        readme.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+notsy@enhdd MINGW64 ~/labb9 (master)
+$ git commit -m "lab9 enhod"
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        readme.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+notsy@enhdd MINGW64 ~/labb9 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        labb9.zip
+        readme.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+notsy@enhdd MINGW64 ~/labb9 (master)
+$ git add .
+
+notsy@enhdd MINGW64 ~/labb9 (master)
+$ git labb9.zip
+git: 'labb9.zip' is not a git command. See 'git --help'.
+
+notsy@enhdd MINGW64 ~/labb9 (master)
+$ git commit -m "lab9 enhod"
+[master (root-commit) 759a0c3] lab9 enhod
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 labb9.zip
+ create mode 100644 readme.txt
+
+notsy@enhdd MINGW64 ~/labb9 (master)
+$ git branch -M main
+git remote add origin https://github.com/ENKHODB232270134/lab9.git
+git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 5.52 KiB | 5.52 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/ENKHODB232270134/lab9.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+notsy@enhdd MINGW64 ~/labb9 (main)
+$
